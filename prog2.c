@@ -18,8 +18,12 @@ void countvowels(char str[])
 
 int main()
 {
-	int i;
-	printf("enter the vowels:");
-	scanf("%d",&i);
-	return 0;
+ char str[100];
+
+    printf("Enter sentence: ");
+    fgets(str,100,stdin);
+
+    vowel(str);
+   
+   return 0;
 }
