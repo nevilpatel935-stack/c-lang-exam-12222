@@ -12,19 +12,19 @@ int main()
 
     printf("Enter first array:\n");
     for(i=0;i<5;i++)
-        scanf("%d",*p1+i);
+    scanf("%d",*p1+i);
 
     printf("Enter second array:\n");
     for(i=0;i<5;i++)
-        scanf("%d",*p2+i);
+    scanf("%d",*p2+i);
 
     for(i=0;i<5;i++)
-        *(p3+i)=*(p1+i)+*(p2+i);
+    *(p3+i)=*(p1+i)+*(p2+i);
 
     printf("Sum Array:\n");
 
     for(i=0;i<5;i++)
-        printf("%d ",(*p3+i));
+    printf("%d ",(*p3+i));
 
     return 0;
 }
